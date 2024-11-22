@@ -21,6 +21,10 @@ public class Cinema15 {
             System.out.println(i);
         }
 
+        for(int i = 0; i < audience.length; i++){
+            System.out.println("Audience in the row: " + (i + 1) + String.join(", ", audience[i]));
+        }
+
         System.out.println(audience.length);
         for (String[] rowAudience : audience) {
             System.out.println("Length of row: " + rowAudience.length);
